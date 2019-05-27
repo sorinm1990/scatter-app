@@ -1,4 +1,4 @@
-<h1>List of Houses</h1>
+<h1>List of Houses 1</h1>
 <ul>
   <li *ngFor="let house of Homes; index as i">
     <span>{{i+1}} - {{house.location.address.streetAddress}} - {{house.propertyDetails.marketStatus.price.value.$numberInt | currency:'USD':'symbol':'1.0-0'}}</span>
